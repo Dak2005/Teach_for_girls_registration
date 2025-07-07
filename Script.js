@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const formData = new FormData(form);
 
-    fetch("YOUR_GOOGLE_SCRIPT_WEB_APP_URL", {
+    fetch("https://script.google.com/macros/s/AKfycbxd0HLTrg3w_VKeF_HVr73XNAfpOY5FxNs8qFErQwYjoYx07bzo5oeyfUifvI9M4UcoEg/exec", {
       method: "POST",
       body: formData
     })
